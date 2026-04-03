@@ -1,0 +1,42 @@
+# Document Parsing
+llama-parse>=0.5.0
+llama-index-core>=0.11.0
+
+# Chunking (Hierarchical Node Parser)
+llama-index-core>=0.11.0
+
+# Embeddings (fully local, no API needed)
+sentence-transformers>=3.0.0
+
+# Vector Database
+chromadb>=0.5.0
+
+# RAG Orchestration — LangGraph CRAG state machine
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0
+
+# LLM Provider
+groq>=0.11.0
+
+# Backend API
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+aiofiles>=24.0.0
+
+# Frontend
+streamlit>=1.38.0
+
+# Data Validation
+pydantic>=2.0
+
+# Config Management
+python-dotenv>=1.0.0
+
+# Evaluation
+ragas>=0.2.0
+datasets>=3.0.0
+
+# HTTP Client
+httpx>=0.27.0

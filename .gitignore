@@ -1,0 +1,28 @@
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ChromaDB / Vector Store
+chroma_db/
+
+# Data and uploads
+data/
+uploaded_docs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Diagnostic files
+_diag_output.txt
+_*.txt
+_test_*.py

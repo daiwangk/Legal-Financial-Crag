@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the payment term specified in the contract?",
+    "ground_truth": "Net 30 days from the date of invoice, with a 2% early payment discount if paid within 10 days.",
+    "contexts": ["Payment shall be made within thirty (30) days of receipt of a valid invoice. A 2% discount shall apply for payments received within ten (10) days."]
+  },
+  {
+    "question": "What are the termination clauses in the agreement?",
+    "ground_truth": "Either party may terminate with 90 days written notice. Immediate termination is allowed for material breach that remains uncured for 30 days.",
+    "contexts": ["This Agreement may be terminated by either party upon ninety (90) days prior written notice. In the event of a material breach that is not cured within thirty (30) days of written notice, the non-breaching party may terminate immediately."]
+  },
+  {
+    "question": "What is the liability cap mentioned in the contract?",
+    "ground_truth": "Total aggregate liability is limited to the total fees paid in the 12 months preceding the claim, not exceeding $5,000,000.",
+    "contexts": ["Neither party's total aggregate liability under this Agreement shall exceed the total fees paid by Client during the twelve (12) month period immediately preceding the event giving rise to such claim, provided that in no event shall total liability exceed Five Million Dollars ($5,000,000)."]
+  },
+  {
+    "question": "What is the total annual revenue reported in the financial statement?",
+    "ground_truth": "Total annual revenue for fiscal year 2024 was $142.7 million, representing a 12.3% increase year-over-year.",
+    "contexts": ["Total revenue for the fiscal year ended December 31, 2024 was $142,700,000, compared to $127,100,000 for the prior year, representing an increase of 12.3%."]
+  },
+  {
+    "question": "What compliance requirements are specified?",
+    "ground_truth": "Both parties must comply with GDPR, SOC 2 Type II, and applicable local data protection laws. Annual compliance audits are required.",
+    "contexts": ["Both parties shall comply with the General Data Protection Regulation (GDPR), maintain SOC 2 Type II certification, and adhere to all applicable local data protection laws. Compliance audits shall be conducted annually by an independent third-party auditor."]
+  },
+  {
+    "question": "What penalties are imposed for late delivery?",
+    "ground_truth": "A penalty of 1.5% of the milestone value per week of delay, capped at 15% of the total contract value.",
+    "contexts": ["In the event of late delivery beyond the agreed milestone dates, a penalty of one and one-half percent (1.5%) of the affected milestone value per week of delay shall apply, provided that total penalties shall not exceed fifteen percent (15%) of the total contract value."]
+  },
+  {
+    "question": "What are the key dates mentioned in the agreement?",
+    "ground_truth": "Effective date: January 1, 2025. Initial term: 3 years ending December 31, 2027. First review date: June 30, 2025.",
+    "contexts": ["This Agreement shall become effective as of January 1, 2025 (the 'Effective Date') and shall continue for an initial term of three (3) years, ending December 31, 2027. The first performance review shall occur on or before June 30, 2025."]
+  },
+  {
+    "question": "Who are the parties involved in the contract?",
+    "ground_truth": "The agreement is between GlobalTech Solutions Inc. (Service Provider) and Meridian Financial Holdings LLC (Client).",
+    "contexts": ["This Master Services Agreement ('Agreement') is entered into by and between GlobalTech Solutions Inc., a Delaware corporation ('Service Provider'), and Meridian Financial Holdings LLC, a New York limited liability company ('Client')."]
+  },
+  {
+    "question": "What confidentiality obligations exist in the agreement?",
+    "ground_truth": "Both parties must maintain confidentiality for 5 years after termination. Confidential information includes trade secrets, financial data, and customer lists.",
+    "contexts": ["Each party agrees to maintain the confidentiality of all Confidential Information for a period of five (5) years following the termination of this Agreement. 'Confidential Information' includes but is not limited to trade secrets, financial data, business strategies, customer lists, and proprietary technology."]
+  },
+  {
+    "question": "What indemnification provisions are included?",
+    "ground_truth": "The Service Provider indemnifies the Client against third-party IP infringement claims. The Client indemnifies the Service Provider against claims arising from misuse of deliverables.",
+    "contexts": ["Service Provider shall indemnify, defend, and hold harmless Client from and against any third-party claims alleging that the deliverables infringe any intellectual property rights. Client shall indemnify Service Provider against any claims arising from Client's misuse of the deliverables or use beyond the scope authorized under this Agreement."]
+  }
+]
