@@ -1,3 +1,13 @@
+---
+title: Legal Financial CRAG
+emoji: ⚖️
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # ⚖️ Legal & Financial Document Intelligence System
 
 > A production-grade **Corrective RAG (CRAG)** application for analyzing legal and financial documents with AI-powered question answering, cited responses, and structured clause extraction.
